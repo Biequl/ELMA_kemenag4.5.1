@@ -1,0 +1,37 @@
+extract ke folder eleraning anda.. sejajar dengan __app dan __statics
+
+jika localserver ke C:\ELEARNINGMADRASAH\dataweb\
+
+akan terbentuk folder viewujian (folder ini bisa anda ganti misal viewcbt, view dll
+jika nada ganti maka manggilnya juga sesuai nama folder yg anda ganti)
+
+buka file database.php pada folder config
+sesuaikan user, pass dari database elearning anda..
+utk local server
+user : root
+pass : uins4k5m2018
+db : db_elearning
+
+
+panggil dengan
+
+localhost:8094/viewujian
+atau
+namadomainelearninganda/viewujian
+
+utk ubah password siswa :
+namadomainelearninganda/viewujian/chsiswa.php (bisa direname)
+-> klik cari dl utk view data siswa dan password saat ini
+ jika anda isi kolom password,
+lalu klik set password..
+maka akan diset smua password siswa dg pass yg anda isikan.
+
+jika ingin sbagian, isikan kelas dan atau rombel, baru set pass 
+
+- didalam sudah sy isikan file mydspass.php (bisa direname)
+utk mengetahuai deskrip dan enskrip suatu data.
+misal enskrip/deskrip dari suatu password.
+
+
+by Didiek Suriadi
+https:/t.me/didieksuriadi

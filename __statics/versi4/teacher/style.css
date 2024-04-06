@@ -1,0 +1,114 @@
+.tema{
+
+   background-color:#3fa190;
+   color:white;
+}
+
+
+ 
+ .center {
+	  position: fixed;
+	  top: 20%;
+	  left: 45%;
+	  margin-top: -20px;
+	  margin-left: -40px;
+	 
+	}
+	.center2 {
+	  position: relatif;
+	  top: 20%;
+	  left: 45%;
+	  margin-top: -20px;
+	  margin-left: -40px;
+	 
+	}
+	
+	 .bg-blue {
+	   background-color: #3fa190 !important;
+	   color: #fff; }
+	  .bg-blue .content .text,
+	  .bg-blue .content .number {
+	   color: #fff !important; }
+	
+	thead{
+		
+		
+		background-color: #3fa190 !important;
+	   color: #fff; 
+   }
+	 
+	 
+	  .bg-blue .content .number {
+	   color: #fff !important; 
+		
+	}
+	
+	.MobileContent {
+
+		 display: none;
+		 text-align:center;
+
+	 }
+
+	@media screen and (max-width: 768px) {
+
+	 .MobileContent {
+
+		 display:block;
+
+	 }
+
+	}
+
+	  .navbaratas{
+		-webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.37);
+		-moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.37);
+		box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.37);
+			
+		}
+
+      .notificationbadge {
+         position: absolute;
+         top: 10px;
+         right: -7px;
+          width:20px;
+         border-radius:50%;
+         background:red;
+         color: white;
+       }
+      
+       .hp { 
+       display:block; 
+       }
+       @media screen and (max-width: 800px) {
+       .hp { 
+       display:none; }
+       }
+
+
+       .fixed{
+
+         position: fixed;
+      
+       }
+
+       .scroll-hov:hover {
+         overflow-y: scroll;
+         overflow-x: hidden;
+         
+       }
+
+
+       .social_links li.active {
+         float: left;
+         width: 100%;
+         color: white;
+         background: #3fa190;
+         font-size: 14px;
+          font-weight: 400;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+      }
+
+

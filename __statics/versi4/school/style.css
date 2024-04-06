@@ -1,0 +1,56 @@
+.ml-menu {
+    list-style: none;
+    
+    padding-left: 10px; }
+     .ml-menu span {
+      font-weight: normal;
+      font-size: 14px;
+      margin: 3px 0 1px 6px; }
+     .ml-menu li a {
+      padding-left: 55px;
+      padding-top: 7px;
+      padding-bottom: 7px; }
+     .ml-menu li.active a.toggled:not(.menu-toggle) {
+      font-weight: 600;
+      margin-left: 5px; }
+       .ml-menu li.active a.toggled:not(.menu-toggle):before {
+        content: '\E315';
+        font-family: 'Material Icons';
+        position: relative;
+        font-size: 21px;
+        height: 20px;
+        top: -5px;
+        right: 0px; }
+     .ml-menu li .ml-menu li a {
+      padding-left: 80px; }
+     .ml-menu li .ml-menu .ml-menu li a {
+      padding-left: 95px; }
+      
+      .ml-menu2 {
+    list-style: none;
+    
+    
+    padding-left: 10; }
+     .ml-menu2 span {
+      font-weight: normal;
+      font-size: 14px;
+      margin: 3px 0 1px 6px; }
+     .ml-menu2 li a {
+      padding-left: 55px;
+      padding-top: 7px;
+      padding-bottom: 7px; }
+     .ml-menu2 li.active a.toggled:not(.menu-toggle) {
+      font-weight: 600;
+      margin-left: 5px; }
+       .ml-menu2 li.active a.toggled:not(.menu-toggle):before {
+        content: '\E315';
+        font-family: 'Material Icons';
+        position: relative;
+        font-size: 21px;
+        height: 20px;
+        top: -5px;
+        right: 0px; }
+     .ml-menu2 li .ml-menu li a {
+      padding-left: 80px; }
+     .ml-menu2 li .ml-menu .ml-menu li a {
+      padding-left: 95px; }
